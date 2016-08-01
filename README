@@ -10,9 +10,11 @@ Simply download and compile it.
 
 I have deleted the useless files for compile. For example, java or android. 
 
+Also, added the hid.h and hid.cpp file for the entire compile and I have debugged.
+
 I don't have any right for this codes.
 
-If you have any questions, please visit here
+If you have any questions except compile issues, please visit here.
 
 https://github.com/vrpn/vrpn/
 
