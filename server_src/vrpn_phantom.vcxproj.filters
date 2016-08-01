@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{091962f4-bd11-4700-992e-328d0fa350ad}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Ghost effects">
+      <UniqueIdentifier>{a6533c8e-8bef-42fd-8c14-80d883f931e0}</UniqueIdentifier>
+      <Extensions>.cpp</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6f72d2e3-80a9-408d-b990-8a8dfe32f924}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Ghost Effects headers">
+      <UniqueIdentifier>{10fb8412-5897-46e4-9223-39aa67de08b8}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="buzzForceField.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="constraint.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forcefield.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plane.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_plane.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trimesh.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vrpn_Phantom.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ghostEffects\InstantBuzzEffect.cpp">
+      <Filter>Source Files\Ghost effects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="buzzForceField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constraint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="forcefield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ghost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture_plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trimesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vrpn_Phantom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ghostEffects\InstantBuzzEffect.h">
+      <Filter>Header Files\Ghost Effects headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
